@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+use Delz\PhalconPlus\App\ConsoleApp;
+
+set_time_limit(0);
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$console = new ConsoleApp('test');
+$console->setRootDir(__DIR__ . '/../');
+$console->run();

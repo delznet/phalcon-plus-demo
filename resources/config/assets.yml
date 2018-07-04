@@ -1,0 +1,20 @@
+# 利用asset管理资源文件配置文件
+# 目前主要功能是压缩合并css和js
+js:
+  type: js
+  files:
+    - js/sm.js
+    - js/sm-extend.js
+  join: true
+  filters:
+    - \Phalcon\Assets\Filters\Jsmin
+  target: js/app.js
+css:
+  type: css
+  files:
+    - css/sm.css
+    - css/sm-extend.css
+  join: true
+  filters:
+    - \Phalcon\Assets\Filters\Cssmin
+  target: css/app.css

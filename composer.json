@@ -1,0 +1,22 @@
+{
+  "name": "project name",
+  "description": "project description",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "your name",
+      "email": "example@example.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0",
+    "delz/phalcon-plus": ">=1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+.project
+/composer.lock
+/vendor
+/test
+/var/cache/*
+!/var/cache/.gitkeep
+/var/logs/*
+!/var/logs/.gitkeep
