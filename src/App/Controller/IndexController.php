@@ -22,7 +22,7 @@ class IndexController extends Controller
 
     /**
      * @Route(
-     *     "rpc",
+     *     "rpC",
      *     methods={"POST", "GET"},
      *     name="rpc"
      * )
